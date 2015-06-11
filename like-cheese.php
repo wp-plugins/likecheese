@@ -5,7 +5,8 @@ Description: Like Cheese lets your site visitors 'like' your site images.  Click
 Hover over the number of likes to view who liked them.
 Demo http://peaceoftheocean.com/shesellsseashells
 
-Version: 1.0 Author: Elizabeth Shilling
+Version: 1.0 
+Author: Elizabeth Shilling
 License: GPL2
 */
 /*  Copyright 2015  Elizabeth Shilling - Orca Web Performance  
