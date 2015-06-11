@@ -2,9 +2,9 @@
 /*Plugin Name: Like Cheese Plugin 
 URI: http://www.orcawebperformance.com/like-cheese-a-wordpress-plugin/
 Description: Like Cheese lets your site visitors 'like' your site images.  Click the hearts to like an image! Hover over the number of likes to view who liked them.
-Version: 1.0 
 Author: Elizabeth Shilling
 License: GPL2
+Version: 1.0 
 */
 /*  Copyright 2015  Elizabeth Shilling - Orca Web Performance  
 (email : eshilling@orcawebperformance.com)
