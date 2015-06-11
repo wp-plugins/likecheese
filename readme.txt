@@ -28,9 +28,9 @@ Strongly recommend installing nextend-facebook-connect
 this is easy for devs and a good exercise for those uping their skills
 
 demo http://peaceoftheocean.com/shesellsseashells
-http://www.orcawebperformance.com/like-cheese-a-wordpress-plugin/
+details for installation http://www.orcawebperformance.com/like-cheese-a-wordpress-plugin/
 
-Upload the LikeCheese plugin to your blog, Activate it.
+Download the LikeCheese plugin to your blog. Activate it.
 
 Next set your site to allow visitors to register. Go to main site settings. Check ‘Anyone can register’ and save.
 
