@@ -1,10 +1,7 @@
 <?php
 /*Plugin Name: Like Cheese Plugin 
 URI: http://www.orcawebperformance.com/like-cheese-a-wordpress-plugin/
-Description: Like Cheese lets your site visitors 'like' your site images.  Click the hearts to like an image! 
-Hover over the number of likes to view who liked them.
-Demo http://peaceoftheocean.com/shesellsseashells
-
+Description: Like Cheese lets your site visitors 'like' your site images.  Click the hearts to like an image! Hover over the number of likes to view who liked them.
 Version: 1.0 
 Author: Elizabeth Shilling
 License: GPL2
