@@ -111,14 +111,32 @@ function likecheese_add_js_likes() {
 													$str7= '" class="';
 													$str8= '"><br />'; 
 													//*****************
-																//reset content to remaining string
-																$content = $checkstring;
+															//reset content to remaining string
+																				$content = $checkstring;
+																			//find end of image, the next >
+																$midstring = strstr( $content, '>' ); //remaining string from >
+																//check next position for </a> 1-4
+																$isimg = substr($midstring, 1, 4);
+																if($isimg == "</a>"){ //it's a linked image
 																//find end of image, the next </a>
 																$checkstring =strstr( $content, '</a>' );  //remaining string inc </a>
 																$endimgpos = strpos( $content, '</a>' );  //where < is at
 																$firstcontent = substr( $content, 0, ($endimgpos+4)); //beg to </a>(w</a>
 																 $finalstring .= ($firstcontent.$str1.$key_1_value.$strspanclass.$imageid.$str2.$key_2_value.$str3.$imageheart.$strid.$imageid.$str4.$imageid.$str5.$likecheeseusername.$str6.$nonce.$strsitepath.$sitepath.$str7.$class.$str8);
+																$checkstring =substr( $content, ($endimgpos + 4)); //beg </a>(wo </a>
 																$content = $checkstring;
+																}
+																	else {//no link
+																	//find end of image, the next >
+																$checkstring =strstr( $content, '>' );  //remaining string inc >
+																$endimgpos = strpos( $content, '>' );  //where > is at
+																//$firstcontent = substr( $content, 0, ($endimgpos-1) ); //beg to >(w>
+																$firstcontent = substr( $content, 0, ($endimgpos + 1) ); //beg to >(w>
+																$finalstring .= ($firstcontent.$str1.$key_1_value.$strspanclass.$imageid.$str2.$key_2_value.$str3.$imageheart.$strid.$imageid.$str4.$imageid.$str5.$likecheeseusername.$str6.$nonce.$strsitepath.$sitepath.$str7.$class.$str8);
+																	//$checkstring =substr( $content, ($endimgpos - 1)); //beg >(wo >
+																$checkstring =substr( $content, ($endimgpos + 1)); //beg >(wo >
+																$content = $checkstring;
+																}
 																$postimagecount = substr_count( $content, 'wp-image-' );
 														}
 												}

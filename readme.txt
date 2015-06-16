@@ -18,13 +18,13 @@ Visitors can register like/unlike your site images; heart image changes accordin
 Uses Nextend-Facebook-Connect to allow for easy Facebook login and gain approved valuable site visitor information.
 Provides additonal image fields in the media uploader.
 
-*currently this version allows for adding likes to posts with images that have links; will soon modify that to include images that don't have links.   Thank you
+*currently this version allows for adding likes to posts.   
 *2.0 coming soon to allow for gallery image likes, shortcodes
 
 
 == Installation ==
 
-Strongly recommend installing nextend-facebook-connect
+Strongly recommend installing nextend-facebook-connect to enable registering via Facebook
 this is easy for devs and a good exercise for those uping their skills
 
 demo http://peaceoftheocean.com/shesellsseashells
