@@ -41,4 +41,6 @@ this is easy for devs and a good exercise for those uping their skills
 
 1. This is the heart (which you can switch the heart icon, if you wish) & the number of likes
 
+2. Second image
+
 == Changelog ==
